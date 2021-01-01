@@ -12,7 +12,7 @@
     <div class="beatbox">
 
       <div class="beat">
-	<audio id="myAudio1" src="./assets/120_future_funk_beats_25.mp3" preload="auto" loop>
+	<audio id="myAudio1" src="./assets/120_future_funk_beats_25.mp3" preload="auto" onended="playAll(0)">
 	</audio>
 	
 		<div class="button1" id="0" onClick="togglePlay(0)">
@@ -22,7 +22,7 @@
       </div>
 
       <div class="beat">
-	<audio id="myAudio2" src="./assets/120_stutter_breakbeats_16.mp3" preload="auto" loop>
+	<audio id="myAudio2" src="./assets/120_stutter_breakbeats_16.mp3" preload="auto" onended="playAll(1)">
 	</audio>
 	
 		 <div class="button1" id="1" onClick="togglePlay(1)">
@@ -32,7 +32,7 @@
       </div>
 
       <div class="beat">
-	<audio id="myAudio3" src="./assets/Bass Warwick heavy funk groove on E 120 BPM.mp3" preload="auto" loop>
+	<audio id="myAudio3" src="./assets/Bass Warwick heavy funk groove on E 120 BPM.mp3" preload="auto" onended="playAll(2)">
 	</audio>
 	
 		<div class="button1" id="2"  onClick="togglePlay(2)">
@@ -42,7 +42,7 @@
       </div>
 
       <div class="beat">
-	<audio id="myAudio4" src="./assets/electric guitar coutry slide 120bpm - B.mp3" preload="auto" loop>
+	<audio id="myAudio4" src="./assets/electric guitar coutry slide 120bpm - B.mp3" preload="auto" onended="playAll(3)">
 	</audio>
 	
 		<div class="button1" id="3" onClick="togglePlay(3)">
@@ -52,7 +52,7 @@
       </div>
 
       <div class="beat">
-	<audio id="myAudio5" src="./assets/FUD_120_StompySlosh.mp3" preload="auto" loop>
+	<audio id="myAudio5" src="./assets/FUD_120_StompySlosh.mp3" preload="auto" onended="playAll(4)">
 	</audio>
 	
 		<div class="button1" id="4" onClick="togglePlay(4)">
@@ -63,7 +63,7 @@
 
       <div class="beat">
        
-	<audio id="myAudio6" src="./assets/GrooveB_120bpm_Tanggu.mp3" preload="auto" loop>
+	<audio id="myAudio6" src="./assets/GrooveB_120bpm_Tanggu.mp3" preload="auto" onended="playAll(5)">
 	</audio>
 	
 		 <div class="button1"id="5" onClick="togglePlay(5)">
@@ -74,7 +74,7 @@
 
       <div class="beat">
         
-	<audio id="myAudio7" src="./assets/MazePolitics_120_Perc.mp3" preload="auto" loop>
+	<audio id="myAudio7" src="./assets/MazePolitics_120_Perc.mp3" preload="auto" onended="playAll(6)">
 	</audio>
 	
 		<div class="button1" id="6" onClick="togglePlay(6)"> 
@@ -85,7 +85,7 @@
 
       <div class="beat">
         
-	<audio id="myAudio8" src="./assets/PAS3GROOVE1.03B.mp3" preload="auto"  loop>
+	<audio id="myAudio8" src="./assets/PAS3GROOVE1.03B.mp3" preload="auto" onended="playAll(7)">
 	</audio>
 	
 		<div class="button1" id="7" onClick="togglePlay(7)">
@@ -95,7 +95,7 @@
       </div>
 
       <div class="beat">
-	<audio id="myAudio9" src="./assets/SilentStar_120_Em_OrganSynth.mp3" preload="auto" loop>
+	<audio id="myAudio9" src="./assets/SilentStar_120_Em_OrganSynth.mp3" preload="auto" onended="playAll(8)">
 	</audio>
 	
 		<div class="button1" id="8" onClick="togglePlay(8)">
@@ -109,7 +109,7 @@
       <div class="control">
 	<a onClick="stopButtonPressed()">
         	<div class="controlButton1" id="stopButton">
-         		 PAUSE
+         		 STOP
         	</div>
 	</a>
       </div>
