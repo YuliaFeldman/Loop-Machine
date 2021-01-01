@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BeatBox</title>	  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes, minimal-ui">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+  
+  </head>
+  <body>
+    <div class="beatbox">
+
+      <div class="beat">
+	<audio id="myAudio1" src="./assets/120_future_funk_beats_25.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="0" onClick="togglePlay(0)">
+			FUTURE FANK BEATS 
+		</div>
+	
+      </div>
+
+      <div class="beat">
+	<audio id="myAudio2" src="./assets/120_stutter_breakbeats_16.mp3" preload="auto" loop>
+	</audio>
+	
+		 <div class="button1" id="1" onClick="togglePlay(1)">
+			STUTTER BREAKBEATS
+        		</div>
+	
+      </div>
+
+      <div class="beat">
+	<audio id="myAudio3" src="./assets/Bass Warwick heavy funk groove on E 120 BPM.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="2"  onClick="togglePlay(2)">
+			BASS WARWICK HEAVY FUNK GROOVE
+       		</div>
+	
+      </div>
+
+      <div class="beat">
+	<audio id="myAudio4" src="./assets/electric guitar coutry slide 120bpm - B.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="3" onClick="togglePlay(3)">
+			ELECTRIC GUITAR COUNTRY SLIDE
+        		</div>
+	
+      </div>
+
+      <div class="beat">
+	<audio id="myAudio5" src="./assets/FUD_120_StompySlosh.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="4" onClick="togglePlay(4)">
+			STOMPY SLOSH
+        		</div>
+	
+      </div>
+
+      <div class="beat">
+       
+	<audio id="myAudio6" src="./assets/GrooveB_120bpm_Tanggu.mp3" preload="auto" loop>
+	</audio>
+	
+		 <div class="button1"id="5" onClick="togglePlay(5)">
+			TANGGU
+		</div>
+	
+      </div>
+
+      <div class="beat">
+        
+	<audio id="myAudio7" src="./assets/MazePolitics_120_Perc.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="6" onClick="togglePlay(6)"> 
+			MazaPolitics
+       		</div>
+	
+      </div>
+
+      <div class="beat">
+        
+	<audio id="myAudio8" src="./assets/PAS3GROOVE1.03B.mp3" preload="auto"  loop>
+	</audio>
+	
+		<div class="button1" id="7" onClick="togglePlay(7)">
+			PAS3GROOVE
+        		</div>
+
+      </div>
+
+      <div class="beat">
+	<audio id="myAudio9" src="./assets/SilentStar_120_Em_OrganSynth.mp3" preload="auto" loop>
+	</audio>
+	
+		<div class="button1" id="8" onClick="togglePlay(8)">
+			SilentStar
+        		</div>
+	
+      </div>
+
+      <div class="controlPanal">
+
+      <div class="control">
+	<a onClick="stopButtonPressed()">
+        	<div class="controlButton1" id="stopButton">
+         		 PAUSE
+        	</div>
+	</a>
+      </div>
+       <div class="control">
+	<a onClick="playButtonPressed()">
+        	<div class="controlButton1" id="playButton">
+        		 PLAY
+       	</div>
+        	</a>
+      </div>
+
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
